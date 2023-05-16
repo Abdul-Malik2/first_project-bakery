@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> этот и следующий теги <link> дают ссылку на шрифты которые будут использоваться в нашем документе, (если вдруг на браузере пользоввателя указанного нами шрифта не будет) -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https: //fonts.googleapis.com/css2?family= Roboto & display семья = Робото: вес @ 400; 700 & swap" rel="stylesheet"> --> 
+    <link rel="stylesheet" href="css/reset.css"> <!-- подключаем код, который сбрасывает заводские настройки браузеров ОТОБРАЖЕНИЯ ОТСТУПОВ (всего таках документов два, и из надо оба подключить "reset" и "normalize") их можно добавлять двумя способами: 1 скачать файл, добавить в папку и подключить(как в этом варианте link); 2 подключить с помощью URL адреса (как в следующем варианте link). но более надёжнее скачать файл, как в способе 1.  -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"> <!-- сбрасываем все заводские стили ОТОБРАЖЕНИЯ ОБЪЕКТОВ у всех браузеров на которых будет просматриваться наш сайт -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Магазин выпечки</title>
+    <meta name="description" content="Лучшая выпечка в городе"><!-- для того чтобы сайт лучше ранжировался в поисковике -->
+</head>
+<body>
+    <header>
+        <img src="img/01-Logo.svg" alt="Изображение логотипа">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">О НАС</a></li>
+            <li><a href="#">НОВОСТИ</a></li>
+            <li><a href="#">МЕНЮ</a></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section-about">
+            <div class="section-about__block">
+                <div class="section-about__border">
+                    <h1 class="section-about__titel">Специальный заказ</h1>
+                    <p class="section-about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dignissimos deleniti quibusdam! Doloremque non esse pariatur quos magnam itaque, culpa impedit! Voluptas omnis provident blanditiis odit eaque consectetur quia voluptates.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-discripsion">
+            <div class="section-discripsion__icon-box">
+                <img src="icons/01-icon.svg" alt="">
+                <img src="icons/02-icon.svg" alt="">
+                <img src="icons/03-icon.svg" alt="">
+            </div>
+            <div class="section-discripsion__text-box">
+                <h2 class="section-discripsion__title">
+                    Выпечка - <span class="red">это</span> вкусно.</h2>
+                <p class="section-discripsion__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo earum nulla dolor, aspernatur architecto fugit provident odit tempore consequatur sint culpa quisquam vel nemo ab, a hic dicta Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto praesentium excepturi assumenda ipsa tempora architecto explicabo debitis, voluptate nemo sint ea. Soluta error beatae accusantium animi quis, dignissimos neque omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis in deserunt ut quasi vero et nisi temporibus? Officiis voluptatem molestias, alias perspiciatis ex corrupti, unde error, incidunt ipsam velit quae.</p>
+            </div>
+        </section>
+        <section class="section-map">
+            <h3 class="section-map__title">ЗАКАЗАТЬ</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19306798.300579224!2d27.0510522096254!3d53.79328021322856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f738a8a090e2f5%3A0xa06ce0bd5ccfd381!2z0JDQtNC80LjQvdC40YHRgtGA0LDRhtC40Y8g0K_RgNC-0YHQu9Cw0LLRgdC60L7Qs9C-INGB0LXQu9GM0YHQutC-0LPQviDQv9C-0YHQtdC70LXQvdC40Y8!5e0!3m2!1sru!2sru!4v1669532092384!5m2!1sru!2sru" width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <hr> <!-- тег специально для создания разделительной линии -->
+        <nav>
+            <ul>
+                <li><a href="#">О НАС</a></li>
+                <li><a href="#">НОВОСТИ</a></li>
+                <li><a href="#">МЕНЮ</a></li>
+                <li><a href="#">КОНТАКТЫ</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
